@@ -1,0 +1,24 @@
+.media-img{
+    width: 549px;
+}
+.shopping-png{
+    width: 599px;
+    height: 354px;
+}
+
+@media only screen and (max-width:767px) {
+    .media-img{
+        width: 302px;
+    }
+    .shopping-png{
+        width: 292px;
+        margin: 0 auto;
+        height: 173px;
+    }
+}
+
+@media only screen and (min-width:767px) and (max-width:991px) {
+    .media-img{
+        width: 400px;
+    }
+}
